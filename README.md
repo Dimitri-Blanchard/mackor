@@ -1,6 +1,6 @@
 # MAC Address Changer Script
 
-This Bash script allows you to change your MAC address either automatically at specified intervals or manually for a specific network interface
+This Bash script allows you to change your MAC address either automatically at specified intervals or manually for a specific network interface. 
 
 ## Table of Contents
 
@@ -12,9 +12,9 @@ This Bash script allows you to change your MAC address either automatically at s
 
 ## Features
 
-- Change the MAC address of a specified network interface
-- Automatically change the MAC address at specified intervals
-- Simple and user-friendly command-line interface
+- Change the MAC address of a specified network interface.
+- Automatically change the MAC address at specified intervals.
+- Simple and user-friendly command-line interface.
 
 ## Installation
 
@@ -29,3 +29,38 @@ sudo dnf install macchanger
 
 # For Arch Linux
 sudo pacman -S macchanger
+```
+
+## Usage
+
+```bash
+./mac_changer.sh [OPTION]
+```
+
+### Options
+
+- `-a, --auto <minutes>`: Automatically change the MAC address every `<minutes>`.
+- `-i, --interface <name>`: Specify the interface of the MAC to change.
+- `-h, --help`: Show help and exit.
+
+## Examples
+
+1. Change MAC address every 30 minutes:
+
+   ```bash
+   ./mac_changer.sh -a 30
+   ```
+
+2. Change MAC address for a specific interface (e.g., `wlo1`):
+
+   ```bash
+   ./mac_changer.sh -i wlo1
+   ```
+
+## License
+
+This script is provided as-is. Use it at your own risk. Make sure to comply with local laws and regulations regarding network privacy and security.
+
+---
+
+**Note**: Always run the script with appropriate permissions. You might need `sudo` to change the MAC address on certain systems.
