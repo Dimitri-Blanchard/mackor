@@ -1,3 +1,5 @@
+![What is a MAC adress](https://github.com/kor-ius/mackor/What-is-MAC-Address.jpeg)
+
 # MAC Address Changer Script
 
 This Bash script allows you to change your MAC address either automatically at specified intervals or manually for a specific network interface. 
