@@ -1,4 +1,4 @@
-![What is a MAC adress](https://github.com/kor-ius/mackor/What-is-MAC-Address.jpeg)
+![What is a MAC adress](https://github.com/KOR-ius/mackor/blob/d3127302f43c41164f3ea2f78be849820deabe74/What-is-MAC-Address.jpeg)
 
 # MAC Address Changer Script
 
