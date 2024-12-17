@@ -37,7 +37,7 @@ sudo pacman -S macchanger
 ## Usage
 
 ```bash
-./mac_changer.sh [OPTION]
+./mackor.sh [OPTION]
 ```
 
 ### Options
@@ -51,13 +51,13 @@ sudo pacman -S macchanger
 1. Change MAC address every 30 minutes:
 
    ```bash
-   ./mac_changer.sh -a 30
+   ./mackor.sh -a 30
    ```
 
 2. Change MAC address for a specific interface (e.g., `wlo1`):
 
    ```bash
-   ./mac_changer.sh -i wlo1
+   ./mackor.sh -i wlo1
    ```
 
 ## License
